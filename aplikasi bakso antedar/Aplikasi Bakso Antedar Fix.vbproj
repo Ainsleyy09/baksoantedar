@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6ACDF8D0-9EDB-48A5-8FBF-5D2DD44DF19D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Aplikasi_Bakso_Antedar_Fix.My.MyApplication</StartupObject>
+    <RootNamespace>Aplikasi_Bakso_Antedar_Fix</RootNamespace>
+    <AssemblyName>Aplikasi Bakso Antedar Fix</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Aplikasi Bakso Antedar Fix.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Aplikasi Bakso Antedar Fix.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataAdmin.Designer.vb">
+      <DependentUpon>FormDataAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataBarang.Designer.vb">
+      <DependentUpon>FormDataBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataMenu.Designer.vb">
+      <DependentUpon>FormDataMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKasir.Designer.vb">
+      <DependentUpon>FormKasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormKasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLapLain.Designer.vb">
+      <DependentUpon>FormLapLain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLapLain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLapPenjualan.Designer.vb">
+      <DependentUpon>FormLapPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLapPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUtama.Designer.vb">
+      <DependentUpon>FormUtama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataAdmin.resx">
+      <DependentUpon>FormDataAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataBarang.resx">
+      <DependentUpon>FormDataBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataMenu.resx">
+      <DependentUpon>FormDataMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKasir.resx">
+      <DependentUpon>FormKasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLapLain.resx">
+      <DependentUpon>FormLapLain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLapPenjualan.resx">
+      <DependentUpon>FormLapPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUtama.resx">
+      <DependentUpon>FormUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YHHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxCrystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Crystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potraid bad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\njnj.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
